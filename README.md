@@ -97,6 +97,7 @@ The output would be in "YOLOX_outputs/yolox_x/track_vis"
 ![image](https://user-images.githubusercontent.com/46515944/182107105-aa8eac04-9622-423b-910b-23230ce1f8c0.png)
 
 Here is the ouput I tested.
+
 ![palace_demo](https://user-images.githubusercontent.com/46515944/182107364-0d5c2dc1-ffad-4764-85a4-80f6f06c736c.gif)
 
 

@@ -1,15 +1,20 @@
 Contents
 ===
-- [Download ByteTrack Github Resources](#download-bytetrack-github-resources(git：ifzhand/bytetrack))
-- [amend the code in set.py](#amend-the-code-in-set.py)
+- [Download ByteTrack Github Resources](#download-bytetrack-github-resources)
+- [Amend the code](#amend-the-code)
+- [Install requirements](#install-requirements)
+- [Justify two codes](#justify-two-codes)
+- [Downloas pretrain file of YOLOX](#downloas-pretrain-file-of-yolox)
+- [Test](#test)
 
-Download ByteTrack Github Resources (Git：ifzhand/ByteTrack)
+
+🔱Download ByteTrack Github Resources
 ====
 🔗 https://github.com/ifzhang/ByteTrack
 
 [![Image from Gyazo](https://i.gyazo.com/7d920310b4e9e5d0f0376ddce9818449.gif)](https://gyazo.com/7d920310b4e9e5d0f0376ddce9818449)
 
-Amend the code in set.py
+🔱Amend the code
 ====
 Near 50 lines in set.py
 
@@ -26,7 +31,7 @@ After finished, it would be like that.
 ![image](https://user-images.githubusercontent.com/46515944/182101718-16a2bbb5-a56a-4735-b9ab-ea2ed35eaaf3.png)
 
 
-Install requirements
+🔱Install requirements
 ====
     pip install cython
     pip install -e git+https://github.com/samson-wang/cython_bbox.git#egg=cython-bbox
@@ -46,7 +51,7 @@ PS. If you're sure about CUDA version, you can check it in this cmd.
 
 ![image](https://user-images.githubusercontent.com/46515944/182102841-4ee2c34c-a5c2-462c-a8e0-83f555c18f53.png)
 
-Justify two codes in data_auguments.py and demo_track.py
+🔱Justify two codes
 ====
 📍 yolox/data/data_auguments.py
 
@@ -79,7 +84,7 @@ Delete "self.rgb_means, self.std"
 
 ![image](https://user-images.githubusercontent.com/46515944/182105661-f68195dc-3576-473f-8e8a-bdfd6d271f75.png)
 
-Downloas pretrain file of YOLOX
+🔱Downloas pretrain file of YOLOX
 ====
 🔗 https://github.com/Megvii-BaseDetection/YOLOX
 
@@ -90,7 +95,7 @@ You can choose any you prefer to download,then put it in root folder.
 ![image](https://user-images.githubusercontent.com/46515944/182106717-e40f59f7-e8bc-48cc-95ba-3160a4059220.png)
 
 
-Test
+🔱Test
 ====
     python tools/demo_track.py video -f exps/default/yolox_x.py -c yolox_x.pth --fp16 --fuse --save_result
 

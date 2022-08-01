@@ -101,7 +101,8 @@ Here is the ouput I tested.
 ![palace_demo](https://user-images.githubusercontent.com/46515944/182107364-0d5c2dc1-ffad-4764-85a4-80f6f06c736c.gif)
 
 
-
-
-
-
+Reference
+====
+https://github.com/ifzhang/ByteTrack
+https://colab.research.google.com/drive/1bDilg4cmXFa8HCKHbsZ_p16p0vrhLyu0?usp=sharing#scrollTo=kcuzq_MJ1EmK
+https://blog.csdn.net/kuweicai/article/details/120873335
